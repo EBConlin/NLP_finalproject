@@ -1,4 +1,4 @@
-The model infrastructure is there, but the model itself is underperforming. Three are in the process of being implemented.
+The model infrastructure is there, but the model itself is underperforming. These are the new changes. We need to test to see what the effects are!!
 1. Adding an LSTM over the top of frozen pretrained SciBert embeddings, which has been shown to be an effective, cheap way to finetune in these cases.
 2. Implementing negative sampling of the negative instances.
 3. intelligently duplicating labels. Right now there is only one relation label per relation. Since "parts of same" and "contradiction" are recipricol relationships, we can add a label
